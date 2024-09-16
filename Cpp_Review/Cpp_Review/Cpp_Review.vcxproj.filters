@@ -30,6 +30,9 @@
     <ClInclude Include="src\General_Include.h">
       <Filter>Resource Files\src</Filter>
     </ClInclude>
+    <ClInclude Include="Shared\Types\TypesDefinitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">

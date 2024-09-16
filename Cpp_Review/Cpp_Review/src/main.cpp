@@ -2,9 +2,14 @@
 
 #include "Random.h"
 
+static void RandomTest()
+{
+	Random::ExecuteRandom(Random::RandomTypes::CRand);
+}
+
 void main()
 {
-	Random::Print10();
+	RandomTest();
 	int32 v{ 4'000 };
 	return;
 }

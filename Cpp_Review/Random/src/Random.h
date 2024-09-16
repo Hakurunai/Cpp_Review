@@ -1,14 +1,15 @@
 #ifndef RANDOM__H
 #define RANDOM__H
 
-#include <iostream>
-
 namespace Random
 {
-	void Print10()
+	enum class RandomTypes
 	{
-		std::cout << 10 << std::endl;
-	}
+		CRand = 0,
+		Other
+	};
+
+	void ExecuteRandom(const RandomTypes Mode);
 }
 
 #endif // RANDOM__H
