@@ -13,27 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Resource Files\src">
-      <UniqueIdentifier>{a7ce7067-1c63-472e-8fd5-db2b0565753a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Resource Files\src\Shared">
-      <UniqueIdentifier>{a15da17c-44e7-4e2c-a7e4-8c7f748bf408}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Resource Files\src\Shared\Types">
-      <UniqueIdentifier>{7089d3ff-5351-476e-a1ff-6d649a7820ea}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Shared\Types\TypesDefinitions.h">
-      <Filter>Resource Files\src\Shared\Types</Filter>
-    </ClInclude>
-    <ClInclude Include="src\General_Include.h">
-      <Filter>Resource Files\src</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="src\main.cpp">
-      <Filter>Resource Files\src</Filter>
+    <ClCompile Include="src\Random.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Random.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
